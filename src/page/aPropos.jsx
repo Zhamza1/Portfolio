@@ -11,16 +11,15 @@ const aPropos = () => {
           <img src={Illu1} alt="Illustration à propos" className='w-[100%] h-[100%] ' />
         </div>
 
-        <div className='self-center ' > 
+        <div className='self-center  w-1/2' > 
           <h2 className='justify-center flex text-3xl'>Un développeur Web né</h2>
         
 
-        <p className='pt-6' >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu penatibus in odio quis eu id sit. Mauris odio risus, quam turpis.<br></br> Neque euismod orci, iaculis facilisi. Dapibus faucibus libero lorem dui elementum neque, at auctor justo. 
-          Lorem ipsum dolor sit amet,<br></br> consectetur adipiscing elit. Arcu penatibus in odio quis eu id sit. Mauris odio risus, quam turpis.<br></br> Neque euismod orci, iaculis facilisi. Dapibus faucibus libero lorem dui elementum neque, at auctor justo. 
-          Lorem ipsum dolor sit amet,<br></br>consectetur adipiscing elit. Arcu penatibus in odio quis eu id sit. Mauris odio risus, quam turpis. <br></br>Neque euismod orci, iaculis facilisi. Dapibus faucibus libero lorem dui elementum neque, at auctor justo. 
-          Lorem ipsum dolor sit amet,<br></br> consectetur adipiscing elit. Arcu penatibus in odio quis eu id sit. Mauris odio risus, quam turpis.<br></br> Neque euismod orci, iaculis facilisi. Dapibus faucibus libero lorem dui elementum neque, at auctor justo. 
-        </p>
+        <p className='pt-6 text-center flex justify-center' >
+        DÉVELOPPEUR INFORMATIQUE INDÉPENDANT<br></br>
+        Développeur Web fullstack & Webdesigner freelance, je suis à votre disposition pour répondre à tout type de projets de création de sites internet, de développement spécifique ou d'applications web.
+Passionné par les technologies liées au Web, je mets mes compétences au service de vos besoins dans divers domaines.
+</p>
         </div>
       </div>
       </section>
