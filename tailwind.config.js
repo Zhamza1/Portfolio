@@ -7,6 +7,21 @@ module.exports = {
       body: ['Inter', 'sans-serif'],
     },
     extend: {
+      backgroundImage: {
+        'header': "url('./asset/Background-header1.png')",
+        'header2': "url('./asset/Background-header2.png')",
+        'wordpress': "url('./asset/Wordpress.svg')",
+        'calendly': "url('./asset/Calendly.svg')",
+        'responsive': "url('./asset/Responsive.svg')",
+        'webdesignsvg': "url('./asset/Web-design.svg')",
+        'maintenance': "url('./asset/Maintenance.svg')",
+        'seo': "url('./asset/SEO.svg')",
+        'edt': "url('./asset/EDT.svg')",
+        'weexa': "url('./asset/Weexa.svg')",
+        'world': "url('./asset/World.svg')",
+        'shoppy': "url('./asset/Shoppy.svg')",
+        'illu2': "url('./asset/illu2.jpg')",
+      },
       fontSize: {
         14: '14px',
       },

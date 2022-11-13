@@ -17,7 +17,6 @@ function App() {
   return (
     <>
       <Router>
-        <Header/>
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/portfolio" element={<Portfolio/>} />

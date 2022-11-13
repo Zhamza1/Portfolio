@@ -4,23 +4,8 @@ import React from 'react'
 const homeCard = (props) => {
   return (
     <>
-        <div className="w-[36rem]  h-[36rem] bg-no-repeat mx-4 bg-[url('https://img.freepik.com/photos-gratuite/developpement-applications-mobiles_1134-60.jpg?w=740&t=st=1667650685~exp=1667651285~hmac=aeaab7ead9b276d1e32accea7a31a011e94ac874c2a991a0037c10bc831dc625')]">      
-          <p>Wordpress</p>
-          </div>
-          <div className="w-[36rem]  h-[36rem] bg-no-repeat mx-4 bg-[url('https://img.freepik.com/photos-gratuite/developpement-applications-mobiles_1134-60.jpg?w=740&t=st=1667650685~exp=1667651285~hmac=aeaab7ead9b276d1e32accea7a31a011e94ac874c2a991a0037c10bc831dc625')]">      
-          <p>SEO</p>
-          </div>
-          <div className="w-[36rem]  h-[36rem] bg-no-repeat mx-4 bg-[url('https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')]">      
-          <p>Wordpress</p>
-          </div>
-          <div className="w-[36rem] mt-8 h-[36rem] bg-no-repeat mx-4 bg-[url('https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')]">      
-          <p>Wordpress</p>
-          </div>
-          <div className="w-[36rem] mt-8 h-[36rem] bg-no-repeat mx-4 bg-[url('https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')]">      
-          <p>Wordpress</p>
-          </div>
-          <div className="w-[36rem] mt-8 h-[36rem] bg-no-repeat mx-4 bg-[url('https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')]">      
-          <p>Wordpress</p>
+        <div className={` font-medium text-[36px] w-[16rem]  h-[30rem] bg-no-repeat mx-4 ${props.bgImage}`}>
+          <p className='pt-20 text-center' >{props.name}</p>
           </div>
     </>
   )
