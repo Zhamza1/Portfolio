@@ -21,7 +21,7 @@ const tarifsCard = (props) => {
 
                     ✓  Formulaire de contact <br />
 
-                    ✓  Charte graphique à partir d'une maquette pré-définie <br />
+                    { props.maquette ? <> {props.maquette}  <br /> </> : "" }  
 
                     <span className={`${props.gris}`} >  ✓ Création charte graphique personnalisée <br /> </span>
 

@@ -6,8 +6,8 @@ const aPropos = () => {
     <>
   <section>
       <h1 className='flex justify-center mt-10 text-[48px] font-medium ' > A propos </h1>
-      <div className='flex pt-10 justify-around '>
-          <img src={Illu1} alt="Illustration à propos" className='w-[45%] h-[50%] ' />
+      <div className='flex pt-10 justify-around pb-[5rem] '>
+          <img src={Illu1} alt="Illustration à propos" className='w-[35%] h-[40%] ' />
         <div className='self-center  w-[45%] ' > 
           <h2 className='justify-center flex text-[36px] font-semibold '>Un développeur Web polyvalent</h2>
         
