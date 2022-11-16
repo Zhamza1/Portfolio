@@ -23,7 +23,7 @@ const Home = (name) => {
         <h1 className='text-[48px] font-semibold' >Développeur web</h1>
         <h2 className='text-[32px] font-medium' > Création de site web : site vitrine,<br></br>  corporate et e-commerce </h2>
 
-        <Link to="/contact" ><div className='pt-[3rem]' > <button type='submit' className=' text-[#FE6965] bg-[#FFFFFF] font-medium px-12 py-2.5 rounded-full text-[20px] hover:bg-[#EA656D] hover:text-[#FFFFFF] ' >Contact</button></div></Link>
+        <Link to="/contact" ><div className='pt-[3rem]' > <button type='submit' className=' text-[#FE6965] bg-[#FFFFFF] font-medium px-12 py-2.5 rounded-full text-[20px] hover:bg-[#3891A6] hover:text-[#FFFFFF] ' >Contact</button></div></Link>
         </div>
         
     </section>

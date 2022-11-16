@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import Header from "../components/header"
+import Illu2 from  "../asset/illu2.png" 
 
 const Contact = () => {
   const [isError,setIsError] = useState("")
@@ -60,8 +61,8 @@ const Contact = () => {
             </div>
           </form>
         </div>
-        <div className='w-[45%] bg-illu2 bg-no-repeat '> 
-
+        <div className='w-[45%] '> 
+          <img className=' w-[100%] ' src={Illu2} alt="illustration d'une personne écrivant un mail" />
         </div>
         
       </section> 

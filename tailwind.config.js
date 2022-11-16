@@ -20,7 +20,7 @@ module.exports = {
         'weexa': "url('./asset/Weexa.svg')",
         'world': "url('./asset/World.svg')",
         'shoppy': "url('./asset/Shoppy.svg')",
-        'illu2': "url('./asset/illu2.jpg')",
+        'illu2': "url('./asset/illu2.png')",
       },
       fontSize: {
         14: '14px',
