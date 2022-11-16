@@ -10,7 +10,7 @@ const Home = (name) => {
     <>
    
     <section className=' bg-header2 bg-no-repeat  pb-[10rem] text-white w-full ' >
-       <header className='pt-[4rem] pb-[4rem] ' >
+       <header className='pt-[4rem] pb-[4rem] rounded-full ' >
         <ul className='flex justify-around px-60 text-white items-center font-regular text-[16px]' >
           <Link to="/" className='text-[40px] font-bold ' > TITRE </Link>
           <Link to="/portfolio" ><li>PORTFOLIO</li> </Link>
@@ -23,13 +23,13 @@ const Home = (name) => {
         <h1 className='text-[48px] font-semibold' >Développeur web</h1>
         <h2 className='text-[32px] font-medium' > Création de site web : site vitrine,<br></br>  corporate et e-commerce </h2>
 
-        <Link to="/contact" ><div className='pt-[3rem]' > <button type='submit' className=' text-[#FE6965] bg-[#FFFFFF] font-medium px-12 py-2.5 rounded-full text-[20px] hover:bg-[#3891A6] hover:text-[#FFFFFF] ' >Contact</button></div></Link>
+        <Link to="/contact" ><div className='pt-[3rem]' > <button type='submit' className=' text-[#FE6965] bg-[#FFFFFF] font-medium px-12 py-2.5 rounded-full text-[20px] hover:bg-[#EFEFEF]  transition ease-in-out delay-100 ' >Contact</button></div></Link>
         </div>
         
     </section>
 
     <section >
-      <h1 className='text-5xl flex justify-center '>Mes Services </h1>
+      <h1 className='text-[48px] font-medium flex justify-center mt-[5rem] mb-[7rem] '>Mes Services </h1>
 
       <div>
         <div className=' flex justify-center flex-wrap mx-40'  >

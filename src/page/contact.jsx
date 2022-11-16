@@ -20,7 +20,7 @@ const Contact = () => {
         <div className='text-center text-red-500'>
           <p>{isError}</p>
         </div>
-          <h1 className='text-[48px] text-third font-semibold mt-[5rem] '>Contactez nous</h1>
+          <h1 className='text-[48px] text-third font-semibold mt-[6rem] '>Contactez nous</h1>
           <p className=' mt-4 pb-2 text-[#ADA3A3] font-semibold text-[16px] ' >Que vous ayez une question sur les fonctionnalités les prix ou autre, notre équipe est prête à répondre à toutes vos questions.</p>
           
           <form name='contact' className='mt-10' method='post' data-netlify="true" onSubmit="submit" >
@@ -57,7 +57,7 @@ const Contact = () => {
               />
             </div>
             <div className='mt-7' >
-              <button type='submit' className=' text-white bg-[#EA656D] px-[2rem] py-[1rem] rounded-[10px] text-[20px] hover:bg-white hover:text-[#1E3A8A]' >Send a message</button>
+              <button type='submit' className=' text-white bg-secondary px-[2rem] py-[1rem] rounded-[10px] text-[20px] hover:bg-[#F0BDB3] transition ease-in-out delay-100  hover:text-[#24252D] ' >Send a message</button>
             </div>
           </form>
         </div>

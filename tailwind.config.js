@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'header': "url('./asset/Background-header1.png')",
-        'header2': "url('./asset/Background-header2.png')",
+        'header2': "url('./asset/Background-header2.svg')",
         'wordpress': "url('./asset/Wordpress.svg')",
         'calendly': "url('./asset/Calendly.svg')",
         'responsive': "url('./asset/Responsive.svg')",

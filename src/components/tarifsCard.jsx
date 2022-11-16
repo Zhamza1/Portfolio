@@ -12,7 +12,7 @@ const tarifsCard = (props) => {
                 <h3 className='font-semibold text-[20px] ' >SITE VITRINE <br /> {props.site} </h3>
                 <h2 className='font-semibold text-[32px] ' >À PARTIR DE {props.prix}€ </h2>
                 <h4 className='font-light text-[14px] pb-[3rem] uppercase  ' > {props.description} </h4>
-                <Link to="/contact" >    <button type='submit' className={`uppercase ${props.textButton} ${props.bgButton} px-6 py-[1rem] rounded-[7px] text-[18px] font-regular hover:bg-white hover:text-[#1E3A8A] mb-[2rem] `} > Nous contacter </button> </Link>
+                <Link to="/contact" >    <button type='submit' className={`uppercase ${props.textButton} ${props.bgButton} px-6 py-[1rem] rounded-[7px] text-[18px] font-regular hover:bg-white mb-[2rem]  ${props.animation} `} > Nous contacter </button> </Link>
                 <h4 className='font-light text-[14px] uppercase' > {props.description2} </h4>
             </div>
             <div className='w-[30%] ml-[2rem] py-[2rem] font-regular text-[16px] ' >
