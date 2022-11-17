@@ -21,13 +21,13 @@ const portfolio = () => {
       <h2 className=' text-xl flex justify-center font-light ' >Vous retrouverez ici les derniers travaux que j’ai pu réaliser  </h2>
 
 
-      <div className='flex justify-around mt-[4rem]'>
+      <div className='flex justify-around mt-[4rem] mx-[20%] '>
         <PortfolioCard link="https://www.group-edt.fr/" alt="Image Site EDT" img={EDT} />
         <PortfolioCard link="https://weexa.com/fr/accueil/" alt="Image Site Weexa" img={Weexa} />
       </div>
 
 
-      <div className='flex justify-around mt-[2rem] mb-[8rem] ' >
+      <div className='flex justify-around mt-[2rem] mb-[8rem] mx-[20%] ' >
       <PortfolioCard link="https://resplendent-tapioca-2d5dee.netlify.app/" alt="Image Site World" img={World} />
       <PortfolioCard link="https://teal-gaufre-972163.netlify.app/" alt="Image Site Shoppy" img={Shoppy} />
       </div> 

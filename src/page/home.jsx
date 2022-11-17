@@ -23,7 +23,7 @@ const Home = (name) => {
         <h1 className='text-[48px] font-semibold' >Développeur web</h1>
         <h2 className='text-[32px] font-medium' > Création de site web : site vitrine,<br></br>  corporate et e-commerce </h2>
 
-        <Link to="/contact" ><div className='pt-[3rem]' > <button type='submit' className=' text-[#FE6965] bg-[#FFFFFF] font-medium px-12 py-2.5 rounded-full text-[20px] hover:bg-[#EFEFEF]  transition ease-in-out delay-100 ' >Contact</button></div></Link>
+        <div className='pt-[3rem]' ><Link to="/contact" > <button type='submit' className=' text-[#FE6965] bg-[#FFFFFF] font-medium px-12 py-2.5 rounded-full text-[20px] hover:bg-[#EFEFEF]  transition ease-in-out delay-100 ' >Contact</button> </Link> </div>
         </div>
         
     </section>
@@ -32,13 +32,13 @@ const Home = (name) => {
       <h1 className='text-[48px] font-medium flex justify-center mt-[5rem] mb-[7rem] '>Mes Services </h1>
 
       <div>
-        <div className=' flex justify-center flex-wrap mx-40'  >
+        <div className=' flex justify-center flex-wrap mx-[9%] '  >
             <HomeCard name="Wordpress" bgImage="bg-wordpress" />
             <HomeCard name="Web design" bgImage="bg-webdesignsvg" />
             <HomeCard name="SEO" bgImage="bg-seo" />
         </div>
         
-        <div className='flex justify-center flex-wrap mx-40 '  >
+        <div className='flex justify-center flex-wrap mx-[9%] mt-[1%] '  >
           <HomeCard name="Responsive design" bgImage="bg-responsive" />
           <HomeCard name="Mise en place d'outils" bgImage="bg-calendly" />
           <HomeCard name="Maintenance site " bgImage="bg-maintenance" />
