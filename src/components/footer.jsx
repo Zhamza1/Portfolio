@@ -1,4 +1,7 @@
 import React from 'react'
+import {
+  Link
+} from "react-router-dom";
 
 const footer = () => {
   return (
@@ -21,8 +24,8 @@ const footer = () => {
 
         <div>
           <p className='text-xl font-normal '>Connect</p>
-          <p className='pt-8 font-light text-sm'>Contact</p>
-          <p className='pt-4 font-light text-sm' >Mentions légales </p>
+          <Link to="/contact" > <p className='pt-8 font-light text-sm'>Contact</p> </Link>
+          <p className='pt-4 font-light text-sm cursor-pointer' >Mentions légales </p>
           </div>
         </section>
 
