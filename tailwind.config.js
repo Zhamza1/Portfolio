@@ -6,6 +6,23 @@ module.exports = {
       display: ['Inter', 'sans-serif'],
       body: ['Inter', 'sans-serif'],
     },
+    screens: {
+
+      '2xl': {'max': '2500px'},
+      // => @media (max-width: 1535px) { ... }
+
+      'xl': {'max': '1440px'},
+      // => @media (max-width: 1279px) { ... }
+
+      'lg': {'max': '1024px'},
+      // => @media (max-width: 1023px) { ... }
+
+      'md': {'max': '768px'},
+      // => @media (max-width: 767px) { ... }
+
+      'sm': {'max': '425px'},
+      // => @media (max-width: 639px) { ... }
+    },
     extend: {
       backgroundImage: {
         'header': "url('./asset/Background-header1.png')",

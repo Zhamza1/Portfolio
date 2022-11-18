@@ -9,27 +9,27 @@ const Home = (name) => {
   return (
     <>
    
-    <section className=' bg-header2 bg-no-repeat  pb-[10rem] text-white w-full ' >
-       <header className='pt-[4rem] pb-[4rem] rounded-full ' >
-        <ul className='flex justify-around px-60 text-white items-center font-regular text-[16px]' >
-          <Link to="/" className='text-[40px] font-bold  ' > TITRE </Link>
+    <section className=' bg-header2 bg-no-repeat  pb-[14rem] text-white w-full rounded-bl-[8rem] lg:pb-[4rem]  ' >
+       <header className='pt-[6.4rem] pb-[6.4rem] ' >
+        <ul className='flex justify-around px-[12rem] text-white items-center font-regular text-[1.6rem]' >
+          <Link to="/" className='text-[4rem] font-bold sm:text-[2rem] ' > TITRE </Link>
           <Link to="/portfolio" ><li className='hover:font-regular' >PORTFOLIO</li> </Link>
           <Link to="/tarifs"> <li>TARIFS</li></Link>
           <Link to="/contact" > <li>CONTACT</li> </Link>
         </ul>
       </header>
       <div className='text-center' >
-        <h2 className='text-[32px] font-medium ' >Hamza Mahmood </h2>
-        <h1 className='text-[48px] font-semibold' >Développeur web</h1>
-        <h2 className='text-[32px] font-medium' > Création de site web : site vitrine,<br></br>  corporate et e-commerce </h2>
+        <h2 className='text-[3.2rem] font-medium ' >Hamza Mahmood </h2>
+        <h1 className='text-[4.8rem] font-semibold' >Développeur web</h1>
+        <h2 className='text-[3.2rem] font-medium' > Création de site web : site vitrine,<br></br>  corporate et e-commerce </h2>
 
-        <div className='pt-[3rem]' ><Link to="/contact" > <button type='submit' className=' text-[#FE6965] bg-[#FFFFFF] font-medium px-12 py-2.5 rounded-full text-[20px] hover:bg-[#EFEFEF]  transition ease-in-out delay-100 ' >Contact</button> </Link> </div>
+        <div className='pt-[3rem]' ><Link to="/contact" > <button type='submit' className=' text-[#FE6965] bg-[#FFFFFF] font-medium px-[4rem] py-[0.5rem] rounded-full text-[2rem] hover:bg-[#EFEFEF]  transition ease-in-out delay-100 ' >Contact</button> </Link> </div>
         </div>
         
     </section>
 
     <section >
-      <h1 className='text-[48px] font-medium flex justify-center mt-[4rem] mb-[6rem] '>Mes Services </h1>
+      <h1 className='text-[4.8rem] font-medium flex justify-center mt-[5rem] mb-[8rem] '>Mes Services </h1>
 
       <div>
         <div className=' flex justify-center flex-wrap mx-[9%] '  >

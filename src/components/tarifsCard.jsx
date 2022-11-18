@@ -7,7 +7,7 @@ import {
 const tarifsCard = (props) => {
   return (
     <>
-        <div className=' relative flex justify-center drop-shadow-lg w-[90%] bg-[#FFFFFF] py-[1rem]  mx-[5%] rounded-[10px] mb-[4rem] cursor-pointer transition-all duration-500 hover:top-[-10px] hover:shadow-2xl  ' >
+        <div className='relative flex justify-center drop-shadow-lg w-[90%] bg-[#FFFFFF] py-[1rem]  mx-[5%] rounded-[10px] mb-[4rem] cursor-pointer transition-all duration-500 hover:top-[-10px] hover:shadow-2xl ' >
             <div className={` w-[26%] ${props.bgColor} rounded-[10px] text-center px-[3rem] pt-[2rem] pb-[3rem] ${props.textColor}  `} >
                 <h3 className='font-semibold text-[20px] ' >SITE VITRINE <br /> {props.site} </h3>
                 <h2 className='font-semibold text-[32px] ' >À PARTIR DE {props.prix}€ </h2>
