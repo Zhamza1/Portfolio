@@ -9,11 +9,11 @@ const Home = (name) => {
   return (
     <>
    
-    <section className=' bg-header2 bg-no-repeat  pb-[14rem] text-white w-full rounded-bl-[8rem] lg:pb-[4rem]  ' >
-       <header className='pt-[6.4rem] pb-[6.4rem] ' >
-        <ul className='flex justify-around px-[12rem] text-white items-center font-regular text-[1.6rem]' >
-          <Link to="/" className='text-[4rem] font-bold sm:text-[2rem] ' > TITRE </Link>
-          <Link to="/portfolio" ><li className='hover:font-regular' >PORTFOLIO</li> </Link>
+    <section className=' bg-header2 bg-no-repeat 2xl:pb-[8rem]  pb-[6rem] text-white w-full rounded-bl-[8rem] lg:pb-[4rem]'>
+       <header className='pt-[2.8rem] pb-[3.4rem]'>
+        <ul className='flex justify-around px-[15rem] text-white items-center font-regular text-[1.6rem]'>
+          <Link to="/" className='text-[4rem] font-bold sm:text-[2rem]'> TITRE </Link>
+          <Link to="/portfolio" ><li className='hover:font-regular'>PORTFOLIO</li> </Link>
           <Link to="/tarifs"> <li>TARIFS</li></Link>
           <Link to="/contact" > <li>CONTACT</li> </Link>
         </ul>
@@ -43,7 +43,7 @@ const Home = (name) => {
           <HomeCard description="Mise en place d’outils spécifiques telle que calendly, des outils de tracking, outil d’automation et d’autres encore " title="Mise en place d'outils" bgImage="bg-calendly" />
           <HomeCard description="La maintenance d'un site web consiste à mener un ensemble d'actions qui vont garder votre site en bonne santé et à jour, sur le plan technique mais aussi éditorial. Il s'agit donc de détecter et corriger les problèmes qui peuvent se créer au fur et à mesure que votre site évolue." title="Maintenance site " bgImage="bg-maintenance" />
         </div>
-        </div>
+      </div>
     </section>
 
     

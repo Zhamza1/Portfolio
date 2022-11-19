@@ -18,7 +18,7 @@ const Header = () => {
     <>
       <header className="bg-header2 w-[100%] md:py-[1rem]  " >
         <nav className='z-[100000]' ref={navRef} >
-          <ul className='flex justify-around px-60 text-white items-center py-7 bg-no-repeat text-[1.6rem] md:text-[1.4rem] md:flex-col ' >
+          <ul className='flex justify-around px-[15rem] text-white items-center pt-[2.8rem] bg-no-repeat text-[1.6rem] md:text-[1.4rem] md:flex-col ' >
             <Link to="/" className='text-[40px] font-bold ' > TITRE </Link>
             <Link to="/portfolio" ><li className=' font-medium text-[#ffffff] opacity-50 hover:opacity-100 transition-all duration-500 active:opacity-100 ' >PORTFOLIO</li> </Link>
             <Link to="/tarifs"> <li className=' font-medium text-[#ffffff] opacity-50 hover:opacity-100 transition-all duration-500  focus:opacity-100'  >TARIFS</li></Link>
