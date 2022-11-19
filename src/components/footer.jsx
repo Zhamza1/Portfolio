@@ -6,7 +6,7 @@ import {
 const footer = () => {
   return (
     <>
-      <footer className=' bg-third text-white w-full pb-[1.2rem] rounded-tr-[10rem] pt-[8rem] ' >
+      <footer className=' bg-third text-white w-full pb-[1.2rem] rounded-tr-[10rem] pt-[8rem] sm:absolute sm:bottom-0 ' /* style="position: absolute;bottom: 0;" */ >
         <section className='flex px-[0.5rem] justify-around pb-[4.8rem]' >
         <div>
           <h1 className='text-[3.2rem] font-medium ' >Titre du site </h1>

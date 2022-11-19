@@ -1,22 +1,34 @@
-import React from 'react'
+import { useRef,React } from 'react'
 import HomeCard from '../components/homeCard'
 import APropos from './aPropos'
 import {
   Link
 } from "react-router-dom";
 
+import { FaBars,FaTimes } from 'react-icons/fa';
+import "../components/header.css"
+
 const Home = (name) => {
+
+  const navRef = useRef();
+
+	const showNavbar = () => {
+		navRef.current.classList.toggle("responsive_nav");
+	};
+
   return (
     <>
    
     <section className=' bg-header2 bg-no-repeat 2xl:pb-[8rem]  pb-[6rem] text-white w-full rounded-bl-[8rem] lg:pb-[4rem]'>
        <header className='pt-[2.8rem] pb-[3.4rem]'>
-        <ul className='flex justify-around px-[15rem] text-white items-center font-regular text-[1.6rem]'>
-          <Link to="/" className='text-[4rem] font-bold sm:text-[2rem]'> TITRE </Link>
-          <Link to="/portfolio" ><li className='hover:font-regular'>PORTFOLIO</li> </Link>
-          <Link to="/tarifs"> <li>TARIFS</li></Link>
-          <Link to="/contact" > <li>CONTACT</li> </Link>
-        </ul>
+        <nav className='z-[100000]' ref={navRef} > 
+          <ul className='flex justify-around px-[15rem] text-white items-center font-regular text-[1.6rem]'>
+            <Link to="/" className='text-[4rem] font-bold sm:text-[2rem]'> TITRE </Link>
+            <Link to="/portfolio" ><li className='hover:font-regular'>PORTFOLIO</li> </Link>
+            <Link to="/tarifs"> <li>TARIFS</li></Link>
+            <Link to="/contact" > <li>CONTACT</li> </Link>
+          </ul>
+        </nav>
       </header>
       <div className='text-center' >
         <h2 className='text-[3.2rem] font-medium ' >Hamza Mahmood </h2>
