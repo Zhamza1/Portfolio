@@ -23,10 +23,10 @@ const Home = (name) => {
        <header className='pt-[2.8rem] pb-[3.4rem] md:flex md:flex-row-reverse '>
         <nav className='z-[100000]' ref={navRef} > 
           <ul className='flex justify-around px-[15rem] text-white items-center font-regular text-[1.6rem] md:flex-col md:text-[40px] '>
-            <Link to="/" className='text-[4rem] font-bold md:text-[40px] '> TITRE </Link>
-            <Link to="/portfolio" ><li className='hover:font-regular'>PORTFOLIO</li> </Link>
-            <Link to="/tarifs"> <li>TARIFS</li></Link>
-            <Link to="/contact" > <li>CONTACT</li> </Link>
+            <Link to="/" className='text-[4rem] font-bold md:text-[40px]  '> TITRE </Link>
+            <Link to="/portfolio" ><li className=' font-medium text-[#ffffff] opacity-50 hover:opacity-100 transition-all duration-500 active:opacity-100   '>PORTFOLIO</li> </Link>
+            <Link to="/tarifs"> <li className=' font-medium text-[#ffffff] opacity-50 hover:opacity-100 transition-all duration-500 active:opacity-100 ' >TARIFS</li></Link>
+            <Link to="/contact" > <li className=' font-medium text-[#ffffff] opacity-50 hover:opacity-100 transition-all duration-500 active:opacity-100 ' >CONTACT</li> </Link>
           </ul>
           <button
 					className="nav-btn nav-close-btn"
@@ -54,15 +54,15 @@ const Home = (name) => {
 
       <div>
         <div className=' flex justify-center flex-wrap mx-[9%] '  >
-            <HomeCard description="WordPress est un logiciel de la famille des CMS. Le CMS WordPress permet à la fois de gagner du temps de développement au niveau de la création de votre site internet et d’y ajouter facilement des pages, WordPress permet donc la création de sites dynamiques." title="Wordpress" bgImage="bg-wordpress" />
-            <HomeCard description="Le web design est la conception de l'interface web : l’architecture interactionnelle, l’organisation des pages, l’arborescence et la navigation dans un site web" title="Web design" bgImage="bg-webdesignsvg" />
-            <HomeCard description="Le référencement naturel, le SEO a pour but d’améliorer votre classement dans les résultats de recherche tel que Google afin d’augmenter le trafic de visiteurs sur votre site web." title="SEO" bgImage="bg-seo" />
+            <HomeCard description="WordPress est un logiciel de la famille des CMS. Le CMS WordPress permet à la fois de gagner du temps de développement au niveau de la création de votre site internet et d’y ajouter facilement des pages, WordPress permet donc la création de sites dynamiques." title="Wordpress" bgImage="bg-wordpress lg:bg-wordpress-1024 sm:bg-wordpress-425 " />
+            <HomeCard description="Le web design est la conception de l'interface web : l’architecture interactionnelle, l’organisation des pages, l’arborescence et la navigation dans un site web" title="Web design" bgImage="bg-webdesignsvg  lg:bg-webdesignsvg-1024 sm:bg-webdesignsvg-425 " />
+            <HomeCard description="Le référencement naturel, le SEO a pour but d’améliorer votre classement dans les résultats de recherche tel que Google afin d’augmenter le trafic de visiteurs sur votre site web." title="SEO" bgImage="bg-seo  lg:bg-seo-1024 sm:bg-seo-425 " />
         </div>
         
         <div className='flex justify-center flex-wrap mx-[9%] mt-[1%] '  >
-          <HomeCard description="Compatibilité desktop tablette & application mobile." title="Responsive design" bgImage="bg-responsive" />
-          <HomeCard description="Mise en place d’outils spécifiques telle que calendly, des outils de tracking, outil d’automation et d’autres encore " title="Mise en place d'outils" bgImage="bg-calendly" />
-          <HomeCard description="La maintenance d'un site web consiste à mener un ensemble d'actions qui vont garder votre site en bonne santé et à jour, sur le plan technique mais aussi éditorial. Il s'agit donc de détecter et corriger les problèmes qui peuvent se créer au fur et à mesure que votre site évolue." title="Maintenance site " bgImage="bg-maintenance" />
+          <HomeCard description="Compatibilité desktop tablette & application mobile." title="Responsive design" bgImage="bg-responsive  lg:bg-responsive-1024 sm:bg-responsive-425 " />
+          <HomeCard description="Mise en place d’outils spécifiques telle que calendly, des outils de tracking, outil d’automation et d’autres encore " title="Mise en place d'outils" bgImage="bg-calendly  lg:bg-calendly-1024 sm:bg-calendly-425 " />
+          <HomeCard description="La maintenance d'un site web consiste à mener un ensemble d'actions qui vont garder votre site en bonne santé et à jour, sur le plan technique mais aussi éditorial. Il s'agit donc de détecter et corriger les problèmes qui peuvent se créer au fur et à mesure que votre site évolue." title="Maintenance site " bgImage="bg-maintenance  lg:bg-maintenance-1024 sm:bg-maintenance-425  " />
         </div>
       </div>
     </section>

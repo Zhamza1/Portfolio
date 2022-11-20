@@ -27,7 +27,7 @@ const portfolio = () => {
       </div>
 
 
-      <div className='flex justify-around  mb-[13rem] mx-[20%] sm:flex-col mt-[3.6rem] ' > {/* md:mt-[3.6rem] */}
+      <div className='flex justify-around  mb-[13rem] mx-[20%] sm:flex-col mt-[3.6rem] md:mt-[0rem] ' > {/* md:mt-[3.6rem] */}
         <PortfolioCard link="https://resplendent-tapioca-2d5dee.netlify.app/" alt="Image Site World" img={World} />
         <PortfolioCard link="https://teal-gaufre-972163.netlify.app/" alt="Image Site Shoppy" img={Shoppy} />
       </div> 
