@@ -15,7 +15,7 @@ const footer = (props) => {
         <div>
           <p className='text-[2rem] font-normal ' >Coordonnées</p>
           <p className='pt-[2rem] font-light text-[1.6rem]'>HAMZA MAHMOOD</p>
-          <p className='pt-[1rem] font-light text-[1.6rem]' >210, avenue du 8 mai 1945 93150 Le Blanc-Mesnil
+          <p className='pt-[1rem] font-light text-[1.6rem]' >Paris, France
           </p>
           <p className='pt-[1rem] font-light text-[1.6rem] ' >(+33) 7.67.33.69.79</p>
 
