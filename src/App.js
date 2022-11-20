@@ -23,7 +23,6 @@ function App() {
           <Route path="/tarifs" element={<Tarif/>} /> 
           <Route path="/contact" element={<Contact/>} />
         </Routes>
-      <Footer/>
       </Router>
     </>
   );

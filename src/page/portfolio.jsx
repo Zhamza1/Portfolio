@@ -5,7 +5,7 @@ import Weexa from "../asset/Weexa.svg"
 import World from "../asset/World.svg"
 import PortfolioCard from '../components/portfolioCard'
 import Header from '../components/header'
-
+import Footer from '../components/footer'
 
 import {
   Link
@@ -32,6 +32,7 @@ const portfolio = () => {
       <PortfolioCard link="https://teal-gaufre-972163.netlify.app/" alt="Image Site Shoppy" img={Shoppy} />
       </div> 
     </section>
+    <Footer css="sm:absolute sm:bottom-0 " />
     </>
   )
 }

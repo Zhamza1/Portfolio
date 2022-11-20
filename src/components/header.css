@@ -10,12 +10,11 @@ header .nav-btn {
 	font-size: 1.8rem;
 }
 
-
-
 @media only screen and (max-width: 768px) {
 	header .nav-btn {
 		visibility: visible;
 		opacity: 1;
+		font-size: 20px;
 	}
 
 	header nav {
@@ -45,9 +44,7 @@ header .nav-btn {
 	}
 
     .nav-open-btn {
-        position: absolute;
-        right: 2rem;
-        display: block;
+        margin-right: 2rem;
     }
 	
 }

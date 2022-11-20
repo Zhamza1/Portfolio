@@ -20,15 +20,24 @@ const Home = (name) => {
     <>
    
     <section className=' bg-header2 bg-no-repeat 2xl:pb-[8rem]  pb-[6rem] text-white w-full rounded-bl-[8rem] lg:pb-[4rem]'>
-       <header className='pt-[2.8rem] pb-[3.4rem]'>
+       <header className='pt-[2.8rem] pb-[3.4rem] md:flex md:flex-row-reverse '>
         <nav className='z-[100000]' ref={navRef} > 
-          <ul className='flex justify-around px-[15rem] text-white items-center font-regular text-[1.6rem]'>
-            <Link to="/" className='text-[4rem] font-bold sm:text-[2rem]'> TITRE </Link>
+          <ul className='flex justify-around px-[15rem] text-white items-center font-regular text-[1.6rem] md:flex-col md:text-[40px] '>
+            <Link to="/" className='text-[4rem] font-bold md:text-[40px] '> TITRE </Link>
             <Link to="/portfolio" ><li className='hover:font-regular'>PORTFOLIO</li> </Link>
             <Link to="/tarifs"> <li>TARIFS</li></Link>
             <Link to="/contact" > <li>CONTACT</li> </Link>
           </ul>
+          <button
+					className="nav-btn nav-close-btn"
+					onClick={showNavbar}>
+					<FaTimes />
+				</button>
         </nav>
+        <button className="nav-btn nav-open-btn " 
+        onClick={showNavbar}>
+				  <FaBars />
+			  </button>
       </header>
       <div className='text-center' >
         <h2 className='text-[3.2rem] font-medium ' >Hamza Mahmood </h2>

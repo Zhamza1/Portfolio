@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import Header from "../components/header"
 import Illu2 from  "../asset/illu2.png" 
+import Footer from '../components/footer'
 
 const Contact = () => {
   const [isError,setIsError] = useState("")
@@ -16,7 +17,7 @@ const Contact = () => {
     <>
     <Header/>
       <section className='flex mt-[2.5rem] justify-around pb-[4rem] ' >
-        <div className='w-[45%]' >
+        <div className='w-[45%] md:w-[90%] ' >
         <div className='text-center text-red-500'>
           <p>{isError}</p>
         </div>
@@ -61,11 +62,12 @@ const Contact = () => {
             </div>
           </form>
         </div>
-        <div className='w-[45%] '> 
+        <div className='w-[45%] md:hidden '> 
           <img className=' w-[100%] ' src={Illu2} alt="illustration d'une personne écrivant un mail" />
         </div>
         
       </section> 
+      {/* <Footer css="sm:absolute sm:bottom-0 " /> */}
       </>
   )
 }

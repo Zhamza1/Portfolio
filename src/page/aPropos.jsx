@@ -1,5 +1,6 @@
 import React from 'react'
 import Illu1 from "../asset/illu1.png"
+import Footer from "../components/footer"
 
 const aPropos = () => {
   return (
@@ -19,6 +20,7 @@ const aPropos = () => {
         </div>
       </div>
       </section>
+      <Footer/>
     </>
   )
 }

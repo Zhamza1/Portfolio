@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from "../components/header"
 import TarifsCard from '../components/tarifsCard'
+import Footer from '../components/footer'
 
 const tarif = (site, prix, description, description2, gris,bgColor) => {
   return (
@@ -13,6 +14,7 @@ const tarif = (site, prix, description, description2, gris,bgColor) => {
 
         <TarifsCard site="PERSONNALISÉ" prix="999" description="Pour un site en accord avec vos gouts et couleurs" description2="Lorem ipsum dolor sit amet consectetur. Scelerisque Lorem ipsum dolor sit amet consectetur. Scelerisque" bgColor="bg-secondary" bgButton="bg-[#FFFFFF]" textButton="text-[#000000]" textColor="text-[#FFFFFF]" animation=" hover:bg-[#EFEFEF] transition ease-in-out delay-100 "/>
       </section>
+      <Footer css="sm:absolute sm:bottom-0 " />
     </>
   )
 }
