@@ -7,7 +7,7 @@ import {
 
 import { FaBars,FaTimes } from 'react-icons/fa';
 import "../components/header.css"
-import Logo from "../asset/LogoRouge.svg"
+import Logo from "../asset/Logo.svg"
 
 
 const Home = (name) => {

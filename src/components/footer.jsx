@@ -2,7 +2,7 @@ import React from 'react'
 import {
   Link
 } from "react-router-dom";
-import Logo from "../asset/LogoNoir.svg"
+import Logo from "../asset/Logo.svg"
 
 
 const footer = (props) => {
