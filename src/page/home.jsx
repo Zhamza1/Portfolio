@@ -25,7 +25,7 @@ const Home = (name) => {
        <header className='pt-[2.8rem] pb-[3.4rem] md:flex md:flex-row-reverse '>
         <nav className='z-[100000]' ref={navRef} > 
           <ul className='flex justify-around px-[15rem] text-white items-center font-regular text-[2rem] md:flex-col md:text-[40px] '>
-            <Link to="/"> <img src={Logo} className="w-[8rem] h-[10rem] " alt="logo du site zhamza" /> </Link>
+            <Link to="/" className="w-[8rem] h-[10rem] " > <img src={Logo} alt="logo du site zhamza" /> </Link>
             <Link to="/portfolio" ><li className=' font-medium text-[#ffffff] opacity-50 hover:opacity-100 transition-all duration-500 active:opacity-100   '>PORTFOLIO</li> </Link>
             <Link to="/tarifs"> <li className=' font-medium text-[#ffffff] opacity-50 hover:opacity-100 transition-all duration-500 active:opacity-100 ' >TARIFS</li></Link>
             <Link to="/contact" > <li className=' font-medium text-[#ffffff] opacity-50 hover:opacity-100 transition-all duration-500 active:opacity-100 ' >CONTACT</li> </Link>

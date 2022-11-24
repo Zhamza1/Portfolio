@@ -11,9 +11,9 @@ const footer = (props) => {
       <footer className={` bg-third text-white w-full pb-[1.2rem] rounded-tr-[10rem] pt-[8rem] ${props.css} `} /* style="position: absolute;bottom: 0;" */ >
         <section className='flex px-[0.5rem] justify-around pb-[4.8rem]' >
         <div>
-          <h1 className='text-[3.2rem] font-medium ' ><img src={Logo} className="w-[12rem] h-[12rem]" alt="logo du site zhamza" />  </h1>
+          <Link to="/" className="w-[8rem] h-[10rem] " ><img src={Logo} className="w-[8rem] h-[10rem]" alt="logo du site zhamza" />  </Link>
         </div>
-
+    
         <div>
           <p className='text-[2rem] font-normal ' >Coordonnées</p>
           <p className='pt-[2rem] font-light text-[1.6rem]'>HAMZA MAHMOOD</p>
