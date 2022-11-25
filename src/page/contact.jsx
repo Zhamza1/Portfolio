@@ -3,6 +3,8 @@ import { useState } from 'react'
 import Header from "../components/header"
 import Illu2 from  "../asset/illu2.png" 
 import Footer from '../components/footer'
+import {Helmet}  from "react-helmet-async"
+
 
 const Contact = () => {
   const [isError,setIsError] = useState("")
@@ -15,6 +17,12 @@ const Contact = () => {
 
   return (
     <>
+      <Helmet>
+        <title> Zhamza | Contact </title>
+        <meta name='description' content='La page contact'  />
+        <link rel="canonical" href="/contact" />      
+      </Helmet>
+
     <Header/>
       <section className='flex mt-[2.5rem] justify-around pb-[4rem] ' >
         <div className='w-[45%] md:w-[90%] ' >

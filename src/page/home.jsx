@@ -8,6 +8,7 @@ import {
 import { FaBars,FaTimes } from 'react-icons/fa';
 import "../components/header.css"
 import Logo from "../asset/Logo.svg"
+import {Helmet} from "react-helmet-async"
 
 
 const Home = (name) => {
@@ -20,6 +21,11 @@ const Home = (name) => {
 
   return (
     <>
+      <Helmet>
+        <title> Zhamza | Développeur Web </title>
+        <meta name='description' content='Je suis Hamza Mahmood un développeur de génie avec un talent inégalé'  />
+        <link rel="canonical" href="/" />
+      </Helmet>
    
     <section className=' bg-header2 bg-no-repeat 2xl:pb-[8rem]  pb-[6rem] text-white w-full rounded-bl-[8rem] lg:pb-[4rem]'>
        <header className='pt-[2.8rem] pb-[3.4rem] md:flex md:flex-row-reverse '>

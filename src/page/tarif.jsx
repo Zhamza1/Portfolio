@@ -2,10 +2,17 @@ import React from 'react'
 import Header from "../components/header"
 import TarifsCard from '../components/tarifsCard'
 import Footer from '../components/footer'
+import {Helmet} from 'react-helmet-async'
 
 const tarif = (site, prix, description, description2, gris,bgColor) => {
   return (
     <>
+      <Helmet>
+        <title> Zhamza | Tarifs </title>
+        <meta name='description' content='La page tarifs un vrai régale pour le portefeuille'  />
+        <link rel="canonical" href="/tarifs" />
+      </Helmet>
+
       <Header/>
       <section className='mb-[4rem]' >
         <h1 className='font-medium text-[4.8rem] flex justify-center mt-[4rem] ' > Tarifs </h1>

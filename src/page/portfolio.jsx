@@ -6,6 +6,7 @@ import World from "../asset/World.svg"
 import PortfolioCard from '../components/portfolioCard'
 import Header from '../components/header'
 import Footer from '../components/footer'
+import {Helmet} from 'react-helmet-async'
 
 import {
   Link
@@ -15,6 +16,12 @@ import {
 const portfolio = () => {
   return (
     <>
+    <Helmet>
+        <title> Zhamza | Portfolio </title>
+        <meta name='description' content='Mon portfolio vraiment bon je trouve'  />
+        <link rel="canonical" href="/portfolio" />
+      </Helmet>
+
     <section>
     <Header/>
       <h1 className=' mt-[5rem] text-[4.8rem] flex justify-center font-medium ' >Mes récents travaux </h1>
