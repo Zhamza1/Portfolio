@@ -30,7 +30,7 @@ const Contact = () => {
           <p>{isError}</p>
         </div>
           <h1 className='text-[4.8rem] text-third font-semibold mt-[6rem] '>Contactez nous</h1>
-          <p className=' mt-[1rem] pb-[0.5rem] text-[#ADA3A3] font-semibold text-[1.6rem] ' >Que vous ayez une question sur les fonctionnalités les prix ou autre, notre équipe est prête à répondre à toutes vos questions.</p>
+          <p className=' mt-[1rem] pb-[0.5rem] text-[#ADA3A3] font-semibold text-[1.6rem] ' >Que vous ayez une question sur les fonctionnalités les prix ou autre, je suis prêt à répondre à toutes vos questions.</p>
           
           <form name='contact' className='mt-[2.5rem] ' method='post' data-netlify="true" onSubmit="submit" >
           <input type="hidden" name="form-name" value="contact" />
