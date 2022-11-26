@@ -31,7 +31,7 @@ const footer = (props) => {
           </div>
         </section>
 
-        <div className='text-center pt-[2rem] font-light text-[1.2rem]  ' >Copyright © 2022-2022 TITRE DU SITE - Agence de développement WEB</div>  
+        <div className='text-center pt-[2rem] font-light text-[1.2rem]  ' >Copyright © 2022-2022 HAMZA MAHMOOD - Développeur WEB</div>  
       </footer>
     </>
   )
