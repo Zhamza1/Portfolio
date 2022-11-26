@@ -2,7 +2,6 @@ import React from 'react'
 import { useState } from 'react'
 import Header from "../components/header"
 import Illu2 from  "../asset/illu2.png" 
-import Footer from '../components/footer'
 import {Helmet}  from "react-helmet-async"
 
 
@@ -12,7 +11,6 @@ const Contact = () => {
   const [email,setEmail]=useState("")
   const [subject,setSubject] =useState("")
   const [message,setMessage] =useState("")
-
 
 
   return (
