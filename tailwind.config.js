@@ -27,6 +27,7 @@ module.exports = {
       backgroundImage: {
         'header': "url('./asset/Background-header1.png')",
         'header2': "url('./asset/Background-header2.svg')",
+        'header1024': "url('./asset/Background-header1024.jpg')",
         'wordpress': "url('./asset/Wordpress.jpg')",
         'calendly': "url('./asset/Calendly.jpg')",
         'responsive': "url('./asset/Responsive.jpg')",

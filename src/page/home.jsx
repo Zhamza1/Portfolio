@@ -27,7 +27,7 @@ const Home = (name) => {
         <link rel="canonical" href="/" />
       </Helmet>
    
-    <section className=' bg-header2 bg-no-repeat 2xl:pb-[8rem]  pb-[6rem] text-white w-full rounded-bl-[8rem] lg:pb-[4rem]'>
+    <section className=' bg-header2 lg:bg-header1024 bg-no-repeat 2xl:pb-[8rem]  pb-[6rem] text-white w-full rounded-bl-[8rem] lg:pb-[4rem]'>
        <header className='pt-[2.8rem] pb-[3.4rem] md:flex md:flex-row-reverse '>
         <nav className='z-[100000]' ref={navRef} > 
           <ul className='flex justify-around px-[15rem] text-white items-center font-regular text-[2rem] md:flex-col md:text-[40px] '>
