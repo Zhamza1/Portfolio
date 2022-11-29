@@ -23,7 +23,7 @@ const Home = (name) => {
     <>
       <Helmet>
         <title> Zhamza | Développeur Web </title>
-        <meta name='description' content="Je suis un développeur Web, le développement Web est ma passion et je m'assure que chaque projet sur lequel je travaille est qualitatif.En tant que développeur front et back-end, je peux vous aider à définir l'expérience utilisateur de votre projet ou à amener votre entreprise au niveau supérieur."  />
+        <meta name='description' content="Je suis un développeur Web, le développement Web est ma passion et je m'assure que chaque projet sur lequel je travaille est qualitatif."  />
         <link rel="canonical" href="/" />
       </Helmet>
    

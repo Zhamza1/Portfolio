@@ -20,7 +20,7 @@ const footer = (props) => {
           <p className='pt-[2rem] font-light text-[1.6rem]'>HAMZA MAHMOOD</p>
           <p className='pt-[1rem] font-light text-[1.6rem]' >Paris, France
           </p>
-          <p className='pt-[1rem] font-light text-[1.6rem] ' >(+33) 7.67.33.69.79</p>
+          <a href="tel:+33 7 67 33 69 79"><p className='pt-[1rem] font-light text-[1.6rem] ' >(+33) 7.67.33.69.79</p></a>
 
           <a href="mailto:hamza.mahmood@outlook.fr"><p className='pt-[1rem] font-light text-[1.6rem]' >hamza.mahmood@outlook.fr</p> </a>
         </div>

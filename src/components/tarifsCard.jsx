@@ -7,16 +7,16 @@ import {
 const tarifsCard = (props) => {
   return (
     <>
-        <div className='relative flex justify-center drop-shadow-lg w-[90%] bg-[#FFFFFF] py-[1.5rem]  mx-[5%] rounded-[1rem] mb-[4rem] cursor-pointer transition-all duration-500 hover:top-[-1rem] hover:shadow-2xl ' >
-            <div className={` w-[27%] ${props.bgColor} rounded-[1rem] text-center px-[3rem] pt-[4rem] ${props.textColor}  `} >
+        <div className='relative flex justify-center drop-shadow-lg w-[90%] bg-[#FFFFFF] py-[1.5rem]  mx-[5%] rounded-[1.5rem] mb-[4rem] cursor-pointer transition-all duration-500 hover:top-[-1rem] hover:shadow-2xl ' >
+            <div className={` w-[20%] ${props.bgColor} rounded-[1.5rem] text-center px-[3rem] pt-[4rem] ${props.textColor} xl:w-[25%] md:w-[26%] sm:w-[30%]  `} >
                 <h3 className='font-semibold text-[2.5rem] ' >SITE VITRINE <br /> {props.site} </h3>
                 <h2 className='font-semibold text-[3.2rem] ' >À PARTIR DE {props.prix}€ </h2>
                 <h4 className='font-light text-[1.8rem] pb-[3rem] pt-[1rem] uppercase  ' > {props.description} </h4>
                 <Link to="/contact" >    <button type='submit' className={`uppercase ${props.textButton} ${props.bgButton} px-6 py-[1rem] rounded-[0.7rem] text-[1.8rem] font-regular hover:bg-white mb-[2rem]  ${props.animation} `} > Nous contacter </button> </Link>
                 <h4 className='font-light text-[1.8rem] uppercase' > {props.description2} </h4>
             </div>
-            <div className='w-[34%] ml-[2rem] py-[2rem] font-regular text-[16px] ' >
-                <p className='leading-[5rem] text-[1.6rem] ' >
+            <div className='w-[37%] ml-[5rem] py-[2rem] font-regular text-[16px] xl:w-[33%] sm:w-[30%]  ' >
+                <p className='leading-[5rem] text-[1.8rem] ' >
                     ✓  Développé sous WORDPRESS    <br />
 
                     ✓  Sélection d'une palette de couleur <br />
@@ -32,8 +32,8 @@ const tarifsCard = (props) => {
                     <span className={`${props.gris}`} >  ✓ Création entière du design via Figma <br /> </span>
                 </p>
             </div>
-            <div className='w-[34%] ml-[2rem] py-[2rem] font-regular text-[1.6rem]' >
-                <p className='leading-[5rem] text-[1.6rem] ' >
+            <div className='w-[37%] ml-[2rem] py-[2rem] font-regular text-[1.6rem] xl:w-[33%] sm:w-[30%]  ' >
+                <p className='leading-[5rem] text-[1.8rem] ' >
                     ✓  Site responsive <br />
 
                     ✓  Mise en place du contenu (textes & images) <br />
