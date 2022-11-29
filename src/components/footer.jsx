@@ -3,7 +3,8 @@ import {
   Link
 } from "react-router-dom";
 import Logo from "../asset/Logo.svg"
-
+import { AiOutlineWhatsApp } from 'react-icons/ai';
+import { AiFillLinkedin } from 'react-icons/ai';
 
 const footer = (props) => {
   return (
@@ -26,6 +27,10 @@ const footer = (props) => {
 
         <div>
           <p className='text-[2rem] font-normal '>Connect</p>
+          <div className='flex pt-[2rem] ' >
+            <a href="https://www.linkedin.com/in/hamza-mahmood-b19128217/" target="_blank" ><AiFillLinkedin className='w-[3rem] h-[3rem] cursor-pointer' /></a>
+            <a href="tel:+33 7 67 33 69 79" target="_blank" ><AiOutlineWhatsApp  className='w-[3rem] h-[3rem] ml-[1.5rem] cursor-pointer ' /></a>
+          </div>
           <Link to="/contact" > <p className='pt-[2rem] font-light text-[1.6rem]'>Contact</p> </Link>
           <p className='pt-[1rem] font-light cursor-pointer text-[1.6rem] ' >Mentions légales </p>
           </div>
