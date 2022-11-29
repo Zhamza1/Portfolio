@@ -18,7 +18,7 @@ const portfolio = () => {
     <>
     <Helmet>
         <title> Zhamza | Portfolio </title>
-        <meta name='description' content='Mon portfolio vraiment bon je trouve'  />
+        <meta name='description' content='Mes récents travaux | Vous retrouverez ici les derniers travaux que j’ai pu réaliser '  />
         <link rel="canonical" href="/portfolio" />
       </Helmet>
 

@@ -17,7 +17,7 @@ const Contact = () => {
     <>
       <Helmet>
         <title> Zhamza | Contact </title>
-        <meta name='description' content='La page contact'  />
+        <meta name='description' content='Contactez nous | Que vous ayez une question sur les fonctionnalités les prix ou autre, je suis prêt à répondre à toutes vos questions.'  />
         <link rel="canonical" href="/contact" />      
       </Helmet>
 

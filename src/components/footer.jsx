@@ -22,7 +22,7 @@ const footer = (props) => {
           </p>
           <p className='pt-[1rem] font-light text-[1.6rem] ' >(+33) 7.67.33.69.79</p>
 
-          <p className='pt-[1rem] font-light text-[1.6rem]' >hamza.mahmood@outlook.fr</p>
+          <a href="mailto:hamza.mahmood@outlook.fr"><p className='pt-[1rem] font-light text-[1.6rem]' >hamza.mahmood@outlook.fr</p> </a>
         </div>
 
         <div>

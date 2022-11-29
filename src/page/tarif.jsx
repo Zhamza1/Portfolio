@@ -9,7 +9,7 @@ const tarif = (site, prix, description, description2, gris,bgColor) => {
     <>
       <Helmet>
         <title> Zhamza | Tarifs </title>
-        <meta name='description' content='La page tarifs un vrai régale pour le portefeuille'  />
+        <meta name='description' content='Tarifs | Un tarif adapté pour un site internet de qualité ! '  />
         <link rel="canonical" href="/tarifs" />
       </Helmet>
 
