@@ -30,13 +30,13 @@ const portfolio = () => {
 
       <div className='flex justify-around mt-[6.4rem] mx-[20%] sm:flex-col '>
         <PortfolioCard link="https://www.group-edt.fr/" alt="Image Site EDT" img={EDT} />
-        <PortfolioCard link="https://weexa.com/fr/accueil/" alt="Image Site Weexa" img={Weexa} />
+        <PortfolioCard link="https://weexa.com/fr/accueil/" alt="Image Site Weexa" img={Weexa}  />
       </div>
 
 
       <div className='flex justify-around  mb-[13rem] mx-[20%] sm:flex-col mt-[3.6rem] md:mt-[0rem] ' > {/* md:mt-[3.6rem] */}
-        <PortfolioCard link="https://resplendent-tapioca-2d5dee.netlify.app/" alt="Image Site World" img={World} />
-        <PortfolioCard link="https://teal-gaufre-972163.netlify.app/" alt="Image Site Shoppy" img={Shoppy} />
+        <PortfolioCard link="https://where-in-the-world1.netlify.app/" alt="Image Site World" img={World} />
+        <PortfolioCard link="https://shoppy1.netlify.app/" alt="Image Site Shoppy" img={Shoppy} />
       </div> 
     </section>
     <Footer />
