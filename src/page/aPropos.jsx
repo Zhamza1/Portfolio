@@ -13,9 +13,8 @@ const aPropos = () => {
           <h2 className='justify-center flex text-[3.6rem] font-semibold '>Un développeur Web polyvalent</h2>
         
         <p className='pt-[1.5rem]  flex justify-center text-[2rem] font-regular  ' >
-          Je suis un développeur Web, le développement Web est ma passion et je m'assure que chaque projet sur lequel je travaille est qualitatif.En tant que développeur front et back-end, je peux vous aider à définir l'expérience utilisateur de votre projet ou à amener votre entreprise au niveau supérieur.
-          <br />
-          Vous trouverez mon travail de premier ordre tout en étant suffisamment professionnel pour impressionner vos clients. N'hésitez pas à m'envoyer un message si vous avez des questions ou des conseils sur les services que je propose. Merci!
+        Je suis Hamza, un développeur web fullstack expérimenté et polyvalent. J'excelle dans la création de sites web à l'aide de WordPress, tout en étant également compétent en React. 
+        Je suis passionné par la création de sites web performants et irréprochable graphiquement, et je m'efforce de fournir des résultats de haute qualité à chaque projet sur lequel je travaille. Faites moi confiance pour vous aider à réaliser vos projets web.
 
         </p>
         </div>

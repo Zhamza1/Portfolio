@@ -7,6 +7,10 @@ import { AiOutlineWhatsApp } from 'react-icons/ai';
 import { AiFillLinkedin } from 'react-icons/ai';
 
 const footer = (props) => {
+
+  var date = new Date();
+  var year = date.getFullYear();
+
   return (
     <>
       <footer className={` bg-third text-white w-full pb-[1.2rem] rounded-tr-[10rem] pt-[8rem] ${props.css} `} /* style="position: absolute;bottom: 0;" */ >
@@ -36,7 +40,7 @@ const footer = (props) => {
           </div>
         </section>
 
-        <div className='text-center pt-[2rem] font-light text-[1.2rem]  ' >Copyright © 2022-2022 HAMZA MAHMOOD - Développeur WEB</div>  
+        <div className='text-center pt-[2rem] font-light text-[1.2rem]  ' >Copyright © 2022-{year} HAMZA MAHMOOD - Développeur WEB</div>  
       </footer>
     </>
   )

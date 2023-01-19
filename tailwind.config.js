@@ -39,6 +39,7 @@ module.exports = {
         'weexa': "url('./asset/Weexa.svg')",
         'world': "url('./asset/World.svg')",
         'shoppy': "url('./asset/Shoppy.svg')",
+        'lumieres': "url('./asset/lumieres.svg')",
         'illu2': "url('./asset/illu2.png')",
         'wordpress-1024': "url('./asset/Wordpress-1024.jpg')",
         'calendly-1024': "url('./asset/Calendly-1024.jpg')",

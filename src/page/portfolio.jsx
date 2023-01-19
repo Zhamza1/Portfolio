@@ -3,6 +3,8 @@ import EDT from "../asset/EDT.svg"
 import Shoppy from "../asset/Shoppy.svg"
 import Weexa from "../asset/Weexa.svg"
 import World from "../asset/World.svg"
+import Lumieres from "../asset/lumieres.svg"
+
 import PortfolioCard from '../components/portfolioCard'
 import Header from '../components/header'
 import Footer from '../components/footer'
@@ -35,9 +37,10 @@ const portfolio = () => {
 
 
       <div className='flex justify-around  mb-[13rem] mx-[20%] sm:flex-col mt-[3.6rem] md:mt-[3.6rem] sm:mt-[0rem] ' > {/* md:mt-[3.6rem] */}
-        <PortfolioCard link="https://where-in-the-world1.netlify.app/" alt="Image Site World" img={World} />
+        <PortfolioCard link="https://www.xn--lumiresdeparis-yjb.fr/" alt="Image Site lumieres de paris" img={Lumieres} />
         <PortfolioCard link="https://shoppy1.netlify.app/" alt="Image Site Shoppy" img={Shoppy} />
       </div> 
+
     </section>
     <Footer />
     </>
