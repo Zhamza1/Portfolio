@@ -14,7 +14,9 @@ const aPropos = () => {
         
         <p className='pt-[1.5rem]  flex justify-center text-[2rem] font-regular  ' >
         Je suis Hamza, un développeur web fullstack expérimenté et polyvalent. J'excelle dans la création de sites web à l'aide de WordPress, tout en étant également compétent en React. 
-        Je suis passionné par la création de sites web performants et irréprochable graphiquement, et je m'efforce de fournir des résultats de haute qualité à chaque projet sur lequel je travaille. Faites moi confiance pour vous aider à réaliser vos projets web.
+        Je suis passionné par la création de sites web performants et irréprochable graphiquement, et je m'efforce de fournir des résultats de haute qualité à chaque projet sur lequel je travaille.
+        <br /><br /> Vous trouverez mon travail de premier ordre et convivial tout en étant suffisamment professionnel pour impressionner vos clients. N'hésitez pas à m'envoyer un message si vous avez des questions
+          ou des conseils sur les services que je propose. 
 
         </p>
         </div>

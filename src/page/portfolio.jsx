@@ -2,7 +2,6 @@ import React from 'react'
 import EDT from "../asset/EDT.svg"
 import Shoppy from "../asset/Shoppy.svg"
 import Weexa from "../asset/Weexa.svg"
-import World from "../asset/World.svg"
 import Lumieres from "../asset/lumieres.svg"
 
 import PortfolioCard from '../components/portfolioCard'
@@ -10,9 +9,6 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 import {Helmet} from 'react-helmet-async'
 
-import {
-  Link
-} from "react-router-dom";
 
 
 const portfolio = () => {
